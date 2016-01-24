@@ -11,14 +11,13 @@ howto: https://api.slack.com/slash-commands
 slack url: https://minor-everything-web.slack.com/services/19199956083
 
 script url: https://oege.ie.hva.nl/~reynk/nerd.php
-//https://cmda.github.io/minor-everything-web-slackbot/nerd.php
-
 
 
 
 ### commands
   - help or ?, returns all commands
-  - programma or programm, returns upcomming event
-  -
+  - todo, returns upcomming event
+  - numeric value, returns next assignment for a weekly nerd talk
+  - ...
 
 
