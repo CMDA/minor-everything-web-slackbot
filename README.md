@@ -1,7 +1,10 @@
 # minor-everything-web-slackbot
+Slackbot Weekly Nerd interaction
 
-## /nerd 
-script returns different messages
+##Custom Commands
+
+### /nerd 
+script returns different messages in relation to the Weekly Nerd
 
 howto: https://api.slack.com/slash-commands
 
@@ -12,7 +15,7 @@ script url: https://cmda.github.io/minor-everything-web-slackbot/nerd.php
 
 
 
-*** commands
+### commands
 - help or ?, returns all commands
 - programma or programm, returns upcomming event
 - 
