@@ -50,16 +50,16 @@ switch($command){
 		$talk .= "18. 	Tuesday 14 Jun 	 \n";
 		break;
 	case "12345":
-		$talk .= "Hey, you've finished the first Weekly Nerd. Good for you! \n";
+		$talk .= "Hey, ".$user_name." you've finished the first Weekly Nerd. Good for you! \n";
 		$talk .= "To complete the first assignment, write a (short) summery about the talk ";
 		$talk .= "and follow up on 2 or 3 links the speaker discussed. \n";
 		$talk .= "- This was the first Weekly Nerd (1/18) \n";
 		break;
     case "HELP":
     case "?":
-		$talk .= "You need help? \n";
-		$talk .= "To code or not to code, that is the question. \n\n";
-		//$talk .= "You have to decide yourself if you take the blue or the red pill.";
+		$talk .= "You need help ".$user_name."? \n";
+		//$talk .= "To code or not to code, that is the question. \n\n";
+		$talk .= "You have to decide for yourself if you take the blue or the red pill ...";
         $talk .= " - Try the command 'todo' for the next scheduled event. \n";
         $talk .= " - Ask for the 'schedule' if you want to know all the Weekly Nerd talks. \n";
         $talk .= " - After a talk, enter your 5 digit code for your next assignment. (test with 12345) \n";
