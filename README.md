@@ -10,7 +10,8 @@ howto: https://api.slack.com/slash-commands
 
 slack url: https://minor-everything-web.slack.com/services/19199956083
 
-script url: https://cmda.github.io/minor-everything-web-slackbot/nerd.php
+script url: https://oege.ie.hva.nl/~reynk/nerd.php
+//https://cmda.github.io/minor-everything-web-slackbot/nerd.php
 
 
 
