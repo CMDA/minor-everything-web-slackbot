@@ -3,8 +3,13 @@
 ## /nerd 
 script returns different messages
 
+howto: https://api.slack.com/slash-commands
+
 slack url: https://minor-everything-web.slack.com/services/19199956083
+
 script url: https://cmda.github.io/minor-everything-web-slackbot/nerd.php
+
+
 
 
 *** commands
