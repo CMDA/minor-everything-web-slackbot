@@ -16,7 +16,8 @@ script url: https://cmda.github.io/minor-everything-web-slackbot/nerd.php
 
 
 ### commands
-- help or ?, returns all commands
-- programma or programm, returns upcomming event
-- 
+  - help or ?, returns all commands
+  - programma or programm, returns upcomming event
+  -
+
 
