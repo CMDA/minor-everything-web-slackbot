@@ -1,5 +1,5 @@
 # minor-everything-web-slackbot
-Slackbot Weekly Nerd interaction
+Slackbot Weekly Nerd interaction on https://minor-everything-web.slack.com
 
 ##Custom Commands
 
