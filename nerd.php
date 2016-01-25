@@ -18,7 +18,7 @@ slackbot [10:49 PM] Only you can see this message
 	"response_url":"https:\/\/hooks.slack.com\/commands\/T0DNPFRUK\/19302712051\/d6LhwEanSELGk3HXXrLyyqQt"}
 */
 
-$user_name = $_POST["user_name"];
+$user_name = ucfirst($_POST["user_name"]);
 $command = strtoupper($_POST["text"]);
 
 $talk = "[".$command."] \n";
@@ -59,7 +59,7 @@ switch($command){
     case "?":
 		$talk .= "You need help ".$user_name."? \n";
 		//$talk .= "To code or not to code, that is the question. \n\n";
-		$talk .= "You have to decide for yourself if you take the blue or the red pill ...";
+		$talk .= "You have to decide for yourself if you take the blue or the red pill ... \n";
         $talk .= " - Try the command 'todo' for the next scheduled event. \n";
         $talk .= " - Ask for the 'schedule' if you want to know all the Weekly Nerd talks. \n";
         $talk .= " - After a talk, enter your 5 digit code for your next assignment. (test with 12345) \n";
