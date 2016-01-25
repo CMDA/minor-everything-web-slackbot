@@ -8,7 +8,7 @@ script returns different messages in relation to the Weekly Nerd
 
 howto: https://api.slack.com/slash-commands
 
-slack url: https://minor-everything-web.slack.com/services/19199956083
+slack settings: https://minor-everything-web.slack.com/apps/manage/A0F82E8CA-slash-commands
 
 script url: https://oege.ie.hva.nl/~reynk/nerd.php
 
