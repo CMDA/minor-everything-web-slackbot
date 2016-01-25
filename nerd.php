@@ -19,6 +19,7 @@ slackbot [10:49 PM] Only you can see this message
 */
 
 $user_name = ucfirst($_POST["user_name"]);
+$user_text = $_POST["text"];
 $command = strtoupper($_POST["text"]);
 
 $talk = "[".$command."] \n";
@@ -65,7 +66,13 @@ switch($command){
         $talk .= " - After a talk, enter your 5 digit code for your next assignment. (test with 12345) \n";
 		break;
     default:
-       $talk = "Hi ".$user_name.", wazabi?";
+       if($user_text == "what" || $user_text == "what?" || $user_text == "wat?" || $user_text == "wat" || $user_text == "wha" || $user_text == "wa"){
+           $talk = "Hé ".$user_name.", wazabi? Try typing the command 'help' or '?'.";
+       }else if($user_text == "hallo"){
+           $talk = $user_name." halloooo ho ho ho.";
+       }else{
+           $talk = "Hi ".$user_name.", rattling?";
+       }
 }
 echo $talk;
 //echo json_encode($talk);
