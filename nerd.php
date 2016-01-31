@@ -39,22 +39,22 @@ switch($command){
 		break;
     case "SCHEDULE":
     case "SCHEMA":
-		$talk .= "0. 	Monday 1 Feb	Kickoff @ N-gebouw \n";
-		$talk .= "1. 	Tuesday 2 Feb 	Drububu - Nerd alert @ Crea \n";
+		$talk .= "0. 	Monday 1 Feb	Kickoff bedrijven bezoeken (Voorhoede, GRRR, Looklive, Q42) @ N-gebouw \n";
+		$talk .= "1. 	Tuesday 2 Feb 	Arjan Westerdiep (Drububu) - Nerd Alert @ Crea \n";
 		$talk .= "2. 	Tuesday 9 Feb 	Marije Schaake (Eend) - Components @ Crea \n";
-		$talk .= "3. 	Tuesday 16 Feb 	Donny Wals (Looklive) - Task manager & git @ Looklive \n";
-		$talk .= "4. 	Tuesday 23 Feb 	Krijn Hoetmer (Qontent) - Progressive Enhancement JS @ Crea \n";
-		$talk .= "5. 	Tuesday 8 Mrt 	Justus Sturkenboom (CMD) - Functional JS @ Crea \n";
-		$talk .= "6. 	Tuesday 15 Mrt 	PPK - the Viewport @ Crea \n";
-		$talk .= "7. 	Tuesday 22 Mrt 	Mattijs Bliek (GRRR) - Functionele animaties @ GRRR \n";
-		$talk .= "8. 	Tuesday 29 Mrt 	Byron van Koll (Jungleminds0) - Debugging  @ Jungleminds \n";
-		$talk .= "9. 	Tuesday 5 Apr 	Jan Kadijk - Smartsensor.me @ Crea \n";
-		$talk .= "10. 	Tuesday 12 Apr 	Guido Bouman (Q42) - Coffeemachine @ Q42 \n";
-		$talk .= "11. 	Tuesday 19 Apr 	Anne Fortuin (Voorhoede) - JS Modules/Declan JS Async @ Voorhoede ?  \n";
+		$talk .= "3. 	Tuesday 16 Feb 	 \n";
+		$talk .= "4. 	Tuesday 23 Feb 	 \n";
+		$talk .= "5. 	Tuesday 8 Mrt 	 \n";
+		$talk .= "6. 	Tuesday 15 Mrt 	Peter Paul Koch - the Viewport @ Crea \n";
+		$talk .= "7. 	Tuesday 22 Mrt 	Mattijs Bliek (GRRR) - Functionele animatie @ GRRR \n";
+		$talk .= "8. 	Tuesday 29 Mrt 	 \n";
+		$talk .= "9. 	Tuesday 5 Apr 	 \n";
+		$talk .= "10. 	Tuesday 12 Apr 	 \n";
+		$talk .= "11. 	Tuesday 19 Apr 	 \n";
 		$talk .= "12. 	Tuesday 26 Apr 	 \n";
 		$talk .= "13. 	Tuesday 10 Mei 	Github  @ Github \n";
 		$talk .= "14. 	Tuesday 17 Mei 	 \n";
-		$talk .= "15. 	Tuesday 24 Mei 	Rahul Choudhury (Q42)-  Interaction engineering @ Q42 \n";
+		$talk .= "15. 	Tuesday 24 Mei 	 \n";
 		$talk .= "16. 	Tuesday 31 Mei 	 \n";
 		$talk .= "17. 	Tuesday 7 Jun 	 \n";
 		$talk .= "18. 	Tuesday 14 Jun 	 \n";
