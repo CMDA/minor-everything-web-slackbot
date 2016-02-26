@@ -25,15 +25,33 @@ $talk = "";
 
 
 
+//vakantie
+$nown = "";
+$nown .= "Geen Weekly Nerd. Het is vakantie ... pfff oei he he, even uitrusten \n";
+$talk = $nown;
+
+
+//WEEKLY NERD #4 - Ron Kersic @ ING
+
+//WEEKLY NERD #4 - Ron Kersic @ ING
+
+//WEEKLY NERD #4 - Ron Kersic @ ING
+
+
+
+//WEEKLY NERD #4 - Ron Kersic @ ING
+$wn4 = "";
+$wn4 .= "Dinsdag 23 februari gaan we naar ING. Je wordt om 16:00 verwacht op hun kantoor In Amsterdam Bijlmer Arena. Bijlmerplein 888. Tel: 020 5639 111 \n";
+$wn4 .= "Ron Kersic vertelt over zijn werkzaamheden als API designer. Het ontwerpen van een API komt heel dicht bij het vertellen van een verhaal ... Is de nerd een storyteller? Awesome! \n";
+$wn4 .= "*** Ron Kersic is Creative Technologist. Hij werkt als software architect, designer en consultant voor ING. ";
+//$talk = $wn4;
+
 //WEEKLY NERD #3 - Donny @ LOOKLIVE
 $wn3 = "";
 $wn3 .= "Dinsdag 16 februari gaan we naar Looklive. Je wordt om 16:00 verwacht op hun kantoor aan de Prinsengracht 697 BG-A. \n";
-$wn3 .= "Geen vervelende lokatie daar aan de gracht, bovendien zul je ter plekke worden ontvangen door onze eigen Donny Wals! Dinsdag gaat hij wat vertellen over hun workflow, task manager en Git. \n";
-
+$wn3 .= "Geen vervelende lokatie daar aan de gracht, bovendien zul je ter plekke worden ontvangen door onze eigen Donny Wals! Dinsdag gaat hij wat vertellen over hun workflow, task manager en Git. En pizza en cola ?! \n";
 $wn3 .= "*** Donny Wals werkt als frontender bij LookLive, een e-commerce bedrijf met een eigen content & development afdeling. Hij heeft vroeger CMD gestudeerd en komt in blok 2 ook lesgeven in het vak Performance Matters. ";
-$talk = $wn3;
-
-
+//$talk = $wn3;
 
 //WEEKLY NERD #2 - EEND
 $wn2 = "";
